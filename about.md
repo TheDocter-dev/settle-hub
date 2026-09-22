@@ -24,7 +24,7 @@ Settle's code, analysis, and drafts are produced with substantial AI assistance 
 
 ## Who
 
-Settle is operated by one person, with AI tooling as described above. Continuity arrangements — key escrow and a dormancy banner rule — are described in the Independence Policy.
+Settle is operated by one person, with AI tooling as described above. Continuity arrangements — a dormancy banner rule and a planned key-escrow arrangement — are described in the Independence Policy, together with their current status.
 
 ## Independence
 
