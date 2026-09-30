@@ -10,7 +10,7 @@ One row per mechanism any public artifact claims. Types: **job** (runs unattende
 | Key escrow | planned | target 2026-10-31; design in independence-policy.md §Key escrow (planned) | operator + trustee (TBD) | — |
 | PyPI release poll (manual) | procedure | manual check; date recorded in Ledger README ("Last manual check") | operator | 2026-09-22 |
 | PyPI release poll (automated) | job | `/root/settle-ledger/poll-pypi.py`, root crontab `23 6 * * *`; public detection = issue opened via issues:write-only PAT (`.poll-issue-token`, root:root 600, **rotate 2026-10-30**); no Contents access, no git ops in job | root | 2026-09-30 (first live run; smoke-tested) |
-| Dormancy banner (automated) | planned | activation target 2026-09-30 — **BLOCKED: policy says posts without human involvement; unattended push ruled out (Fable 30 Sep); design ruling needed** | hub | — |
+| Dormancy banner (automated) | planned | scheduled GitHub Pages rebuild (daily) keyed on newest signed settle-ledger commit age > 30d; no commits, no stored credentials. Accuracy entry 12 (30 Sep miss); activation target 2026-10-03 (v1.1 change note queued) | GitHub Actions | — |
 | OTS stamping | procedure | manual step in the freeze procedure; outputs in `settle-ledger` `anchors/001/` | operator | 2026-09-19 (anchor-001) |
 | Consistency gate | procedure | no implementing script — manual diff across governing documents | operator + AI assistance | 2026-09-19 |
 | Ledger anchor procedure | procedure | manual; artifacts in `settle-ledger` `anchors/` | operator | 2026-09-19 (anchor-001) |
