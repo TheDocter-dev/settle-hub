@@ -1,6 +1,6 @@
 # Chain-Scoring Table — Solana / Polygon / Arbitrum / Ethereum / Optimism
 
-**Status: v3 FINAL, 18 Sep 2026 — Fable-confirmed. v2 corrections held; v3 fixes the queue chronology (port moved to 31 Oct so the arrows match the dates; Solana genuinely last at 15 Nov) and the withdrawal now lives in backbone amendment v1.4. Backbone v1.2 §2: chains enter the build queue by EV on the seven parameters. Every figure carries denominator, source, date.**
+**Status: v3 FINAL, 18 Sep 2026 — Fable-confirmed. v2 corrections held; v3 fixes the queue chronology (port moved to 31 Oct so the arrows match the dates; Solana genuinely last at 15 Nov) and the withdrawal now lives in backbone amendment v1.4. Backbone v1.2 §2: chains enter the build queue by EV on the seven parameters. Every figure carries denominator, source, date. v3.1 (5 Oct 2026): Solana count cell replaced with denominator-carrying split statement — reviewer ruling, 5 Oct; Artemis metric definition captured primary, figure not reproduced.**
 
 ## Denominator discipline (read before any number below)
 
@@ -17,7 +17,7 @@
 | Arbitrum | 1.9%* | 90.0%* | 339,249* | $2.33B* | $25.61* | "Almost entirely one contract: cross-chain bridging" (Bitquery, Aug 2026*) — **bridge EIP-3009 flow, out of scope of x402 attribution by Settle's own filter** |
 | Ethereum | 0.3%* | 3.4%* | ~55k* | ~$88M* | — | Rounding error in denominator (Bitquery, Aug 2026*) |
 | Optimism | 0.2%* | 0.01%* | ~37k* | ~$0.26M* | — | Rounding error in denominator (Bitquery, Aug 2026*) |
-| Solana | contested: ~50–65% of x402 tx volume by source and window (Dune 49.7% weekly, 9 Feb 2026 — stale; Solana Foundation self-report ~65% of 2026; the backbone's "~70%" has no source and is withdrawn) | unmeasured | 869,392 sub-cent payments/day, 15,070 sponsors, no payee >5.4% (Bitquery, Aug 2026, separate SVM method) | unmeasured | sub-cent | Broad distribution; see (f) — does not rule out wash |
+| Solana | Count: Artemis/Flipside headline metric (raw transfers to listed facilitator addresses, > $0, wash filter not applied to this metric; definition captured 5 Oct 2026) places Solana at ~76% of x402 transactions in the four weeks to 22 Sep, per secondary reporting; per-chain split not exposed on the free tier, figure not reproduced. Value: on-chain-verified USD volume (x402-list, 4 Oct) is Coinbase/Base-dominant; Solana-only facilitators are small. Both statements hold with different denominators; Settle's own attributed figures are the comparator once the Solana pipeline exists.| unmeasured | 869,392 sub-cent payments/day, 15,070 sponsors, no payee >5.4% (Bitquery, Aug 2026, separate SVM method) | unmeasured | sub-cent | Broad distribution; see (f) — does not rule out wash |
 
 *Bitquery EIP-3009 upper bound, shares of 18.3M payments / $2.59B across the 5 measured EVM chains, Aug 2026.
 
