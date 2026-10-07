@@ -1,6 +1,8 @@
-# Settle — Coordinated Disclosure Policy (v1.0 — PUBLICATION-READY, HOLD for 22 Sep 2026)
+# Settle — Coordinated Disclosure Policy (v1.1 — 7 October 2026)
 
 *Version 1.0 — September 2026. Effective on publication. This policy governs all Settle assessments from its effective date onward, including Assessment 001 (Faremeter v0.22.0), which publishes alongside it and is governed by v1.0. It is a standing commitment, not a per-report arrangement.*
+
+*Version 1.1 — 7 October 2026. Adds the §5 contact-attempt cap and the §10 accuracy-record citation. Assessments 001 and 002 were published under v1.0 and remain governed by it; v1.1 governs all work from 7 October 2026 onward. Change log in §11; published in the Settle Ledger per this section.*
 
 ## 1. What Settle does (scope)
 
@@ -67,6 +69,8 @@ Before any publication, the maintainer of the subject software receives, private
 
 If a maintainer does not respond within the window, we publish on schedule; readers of payment infrastructure have a legitimate interest in timely, evidence-backed information. The report states only that the courtesy window was given and elapsed. We do not editorialize about non-response.
 
+**Contact discipline (v1.1).** A maintainer is treated as unreachable only after two documented delivery attempts through the maintainer's own published channels, spaced at least 14 days apart, plus 30 days of silence after the second attempt. Two attempts is the cap per disclosure episode: no third nudge, and no channel-hopping across platforms to manufacture contact. If delivery itself fails (bounce, no reachable channel), the attempt record — dates, channels, failure evidence — is appended to the published report, and the §4 window runs from the last documented attempt.
+
 ## 6. Multi-party coordination
 
 x402 findings can span the specification, an SDK, and a facilitator simultaneously. When a finding touches more than one party:
@@ -98,6 +102,8 @@ For findings with security impact, we support CVE assignment and will request on
 
 Every published assessment includes: the subject (implementation, version/pinned artifact digest, network), the method, the evidence manifest (SHA-256 committed, anchored in the Settle Ledger), findings with classification, explicitly-labeled observations, limitations, and a falsified-hypothesis log recording any claims we formed and withdrew during testing.
 
+**Accuracy record (v1.1).** Settle's accuracy record is public: the errata ledger at anchors/ACCURACY.md in the Settle Ledger. Every report header cites its state — a report whose claims have never needed an erratum says so; one that has carries the entry numbers.
+
 When our declared on-chain observation (§1) informs a report — whether it drove subject selection or supplied a claim — the report says so, with the query and block range, under the same evidence discipline as every other claim. When it did not inform the report, there is nothing to disclose.
 
 Reports are technical conformance assessments, not audits, attestations, or assurance engagements. Assessments are provided as-is; Settle makes no warranty and accepts no liability for decisions made in reliance on them.
@@ -105,6 +111,10 @@ Reports are technical conformance assessments, not audits, attestations, or assu
 ## 11. Changes to this policy
 
 Changes are versioned, dated, and published in the Settle Ledger with a change log. Reports published under a given policy version remain governed by that version.
+
+**Change log:**
+- v1.0 — 22 September 2026. Initial publication (governs 001, 002).
+- v1.1 — 7 October 2026. §5 contact-attempt cap (two documented attempts, 14 days apart, 30 days silence; no channel-hopping; attempt record appended to the report). §10 accuracy-record citation in every report header.
 
 ---
 

@@ -1,6 +1,6 @@
 # Settle External Reviewer Seat — Role and Terms
 
-**Status: DRAFT v2 for 22 Sep 2026 launch package — seat published in dated form matching the independence policy**
+**Status: DRAFT v2 for 22 Sep 2026 launch package — seat published in dated form matching the independence policy** — **v1.1 edit 7 Oct 2026: no-reviewer-shopping term added.**
 
 ## Purpose
 
@@ -19,6 +19,7 @@ The external reviewer is Settle's standing hostile reader. Once staffed, every p
 - **Access:** the reviewer sees internal artifacts in full under confidentiality — including address-level mappings; the redaction policy (S.1) governs what *readers* see, not what the reviewer sees (an audit-trail spot-check is impossible without the mappings). Confidentiality terms never restrict the reviewer from publishing a disagreement.
 - **Publication and veto:** for **commissioned assessments**, a reviewer block is binding — the report does not ship until the disagreement is resolved. For **uncommissioned publications**, the founder may ship over a disagreement only with the disagreement disclosed verbatim in the methods section. The reviewer's rulings are summarized in each publication's methods section.
 - **Compensation and term:** agreed on appointment and disclosed on this page. Either side may end the arrangement with notice, and the seat's vacancy is disclosed on the independence page within 7 days.
+- **No reviewer-shopping:** the candidate order is recorded before the first approach; a decline or a completed nudge schedule is final for that round; a recorded 90-day silence period after a final nudge is honored before any re-approach.
 
 ## Seat status
 

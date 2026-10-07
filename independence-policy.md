@@ -1,6 +1,6 @@
 # Settle Independence Policy
 
-**Status: DRAFT v5 for 22 Sep 2026 launch package — anchors at freeze (21 Sep, anchor-001)**
+**Status: DRAFT v5 for 22 Sep 2026 launch package — anchors at freeze (21 Sep, anchor-001)** — **v1.1 edits 7 Oct 2026: accuracy record published; reviewer-selection clause; dormancy-banner mechanism updated to the live design.**
 
 ## What Settle is
 
@@ -26,7 +26,8 @@ Settle is an independent, protocol-level facilitator conformance and verificatio
 ## External review
 
 - An external reviewer holds a standing seat to hostile-read pre-registrations, method changes, and draft publications before they ship. **The seat is vacant at launch. It will be filled before Settle issues its first commissioned assessment; until it is filled, no commissioned assessment will be issued.** Interim arrangement, disclosed as interim: pre-registrations, method changes, and drafts pass an adversarial review loop (external-model hostile read), with rulings recorded in the project handoff log.
-- Where the internal accuracy record disagrees with a published figure, the correction is published with the same prominence as the original figure.
+- Where the accuracy record disagrees with a published figure, the correction is published with the same prominence as the original figure. The accuracy record is public: it lives in the Settle Ledger (anchors/ACCURACY.md), and every report header cites its state.
+- **Reviewer selection is not shopped.** Candidates are approached in a pre-registered order recorded before the first approach; a decline or a completed nudge schedule is final for that round and is recorded with dates. Settle never re-shops a finding to a second reviewer because the first declined, and a recorded silence period (90 days after a final nudge) is honored before any re-approach.
 
 ## AI authorship
 
@@ -37,7 +38,7 @@ Settle's measurement code, analysis, and drafts are produced with AI assistance 
 Settle is operated by one person. Two arrangements address single-operator risk — one in force today in manual form, one planned — and both are public in existence, trigger, and powers:
 
 - **Key escrow (planned).** Settle is currently operated by one person. The Ledger signing key exists in two locations under the operator's sole control: the signing host's keyring and an off-host backup. No trustee arrangement is in place yet. Escrow is planned by 31 October 2026 with a named trustee whose powers will be enumerated and bounded — publish the dormancy banner, and publish a signed revocation of the signing key — and nothing else. The trustee will not be able to issue anchors, findings, or corrections as Settle; a key holder who could publish as Settle would be a second unaccountable operator, not a safeguard. The trustee's identity will remain private; the existence, trigger, and powers of the arrangement will be public. Until escrow is executed, loss of the operator means the key is revoked by no one and the record simply stops — which the anchors and the banner rule make visible rather than hide.
-- **Dormancy banner (automated, planned).** A job on the hub will check the liveness feed daily and, if it shows no Settle activity for 30 consecutive days, post the banner without human involvement. Activation target: 30 September 2026. Until activation, the same 30-day rule applies and the banner is posted manually by the operator.
+- **Dormancy banner (automated, live since 2 October 2026).** The hub is served by a scheduled Pages rebuild keyed on commit age: if no Settle commit activity occurs for 30 consecutive days, the banner posts without human involvement. Mechanism and run log: MECHANISMS.md on the hub repo. The 30-day rule itself is unchanged. (v1.1, 7 Oct: this bullet previously described the banner as planned with a manual interim; it has been live and automated since 2 Oct — declared-vs-actual mismatch corrected.)
 
 An unmaintained record is still a verifiable record — the anchors stand — but readers are told, not left to assume.
 

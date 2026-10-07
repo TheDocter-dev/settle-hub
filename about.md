@@ -1,6 +1,6 @@
 # About Settle
 
-**Status: DRAFT v2 for 22 Sep 2026 launch package — anchors at freeze (21 Sep, anchor-001)**
+**Status: DRAFT v2 for 22 Sep 2026 launch package — anchors at freeze (21 Sep, anchor-001)** — **v1.1 edit 7 Oct 2026: accuracy record is published, not internal.**
 
 ## What we do
 
@@ -16,7 +16,7 @@ Agent payments only work if buyers and sellers can trust the settlement layer. T
 2. **Frozen method.** The measurement code is hashed and logged before its first run; every change ships as a new version with a new recorded hash.
 3. **Hash-chained state.** Each run logs the hash of the state it consumed and produced, so the sequence of runs is provable link by link.
 4. **Freeze and anchor.** Reports are frozen, hashed, and timestamped (OpenTimestamps) in the Settle Ledger before publication. Publication day publishes the anchor, not just the document.
-5. **External review.** An external reviewer seat exists for hostile-reading pre-registrations, method changes, and drafts. It is vacant at launch and will be filled before Settle issues any commissioned assessment; until then, none is issued (see Independence Policy). The internal accuracy record — every error caught, including ones caught before publication — is kept and summarized with each published report.
+5. **External review.** An external reviewer seat exists for hostile-reading pre-registrations, method changes, and drafts. It is vacant at launch and will be filled before Settle issues any commissioned assessment; until then, none is issued (see Independence Policy). The accuracy record — every error caught, including ones caught before publication — is public in the Settle Ledger (anchors/ACCURACY.md) and cited in each published report's header.
 
 ## AI authorship disclosure
 
